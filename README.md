@@ -4,8 +4,11 @@ For citation in thesis writing, please refer to the following work:<br>
 Tzu-Hsien Yang*, Zhan-Yi Liao, Yu-Huai Yu, and Min Hsia, "RDDL: a systematic ensemble pipeline tool that streamlines balancing training schemes to reduce the effects of data imbalance in rare-disease-related deep-learning applications".
 
 ----------------
+
 ### File Structure
 
+
+```
 DL_pipeline/
 ├── Hemo/
 │   ├── hyperparameters/     # Setting parameters for training
@@ -25,6 +28,7 @@ DL_pipeline/
 ├── run_train.py             # Main entry point for starting training
 ├── requirements_gpu.txt     # Dependencies for GPU-enabled environments
 └── requirements.txt         # Standard CPU-only dependencies
+```
 
-----------
 
+---
