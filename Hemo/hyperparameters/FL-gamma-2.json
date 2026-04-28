@@ -1,0 +1,9 @@
+{
+    "batch_size": 64,
+    "dropout_rate": 0.47,
+    "epochs": 40,
+    "initial_lr": 9e-7,
+    "decay_rate": 0.87,
+    "bottom_lr": 1e-12,
+    "random_seed": 1182
+}
