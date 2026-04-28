@@ -1,6 +1,8 @@
-## DL_pipeline
-This is a binary classifier pipeline adapted from the RDDL GitHub repo (https://github.com/cobisLab/RDDL)
-For citation in thesis writing, please refer to the following work:<br> 
+## DL_pipeline (Internal Team Tool)
+
+* This is a binary classifier pipeline adapted from the RDDL GitHub repo (https://github.com/cobisLab/RDDL)
+
+* For citation in thesis writing, please refer to the following work:<br> 
 Tzu-Hsien Yang*, Zhan-Yi Liao, Yu-Huai Yu, and Min Hsia, "RDDL: a systematic ensemble pipeline tool that streamlines balancing training schemes to reduce the effects of data imbalance in rare-disease-related deep-learning applications".
 
 ----------------
