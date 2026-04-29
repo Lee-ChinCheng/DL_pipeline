@@ -40,7 +40,37 @@ DL_pipeline/
 
 ---
 
-### Balancing Methods
+### Step 1: Environment Preparation
+
+recommend using python=3.8.13
+
+```
+conda create -n "dl38" python=3.8.13
+```
+
+If you intend to use GPU during the model training, please use the following file to install the packages:
+
+```
+pip install -r requirements_gpu.txt
+```
+
+Otherwise, 
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+### Step 2: Data Splitting
+
+---
+
+### Step 3: Allocate Data Encoded array
+
+---
+
+### Step 4: Select Balancing Methods
 
 * "OS1-1": Oversample (positive:negative = 1:1) 
 * "OS1-2": Oversample (positive:negative = 1:2)
@@ -57,5 +87,17 @@ note: Before running the balancing methods, users should set the hyperparameters
 These  json files should be placed in the USER_hyperparameters folder:
 
 
+
+---
+
+### Step 5: Build Model Architecture
+
+* design your model architecture in USER_model.py
+
+---
+
+### Step 6: Deep Learning Training
+
+* execute run_train.py
 
 ---
