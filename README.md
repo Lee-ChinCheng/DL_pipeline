@@ -42,7 +42,7 @@ DL_pipeline/
 
 ### Step 1: Environment Preparation
 
-recommend using python=3.8.13
+Suggested running environments: Python 3.8.13
 
 ```
 conda create -n "dl38" python=3.8.13
@@ -63,6 +63,8 @@ pip install -r requirements.txt
 ---
 
 ### Step 2: Data Splitting
+
+In typical 5-fold cross validation, we need 5 training set (training_1.csv ~ training_5.csv) and 1 test set (test1.csv)
 
 ---
 
@@ -99,5 +101,10 @@ These  json files should be placed in the USER_hyperparameters folder:
 ### Step 6: Deep Learning Training
 
 * execute run_train.py
+
+---
+
+
+* for more information, please visit RDDL (https://github.com/cobisLab/RDDL)
 
 ---
